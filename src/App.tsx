@@ -5,7 +5,7 @@ function App() {
   const [fetchresult, setFetchResult] = useState("None")
 
   async function getExampleHTML() {
-    const result = await fetch("https://example.com")
+    const result = await fetch("/api")
       .then(res => {
         return res.text();
       })
