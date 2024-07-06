@@ -1,15 +1,20 @@
 .app {
+  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   padding: 3rem;
 }
 
 .app h1 {
+  width: 100%;
+  text-align: center;
   margin-bottom: 2rem;
 }
 
 .app h2 {
   font-size: 1rem;
+  width: 80%;
+  overflow-wrap: break-word;
 }
