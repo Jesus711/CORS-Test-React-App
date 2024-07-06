@@ -24,7 +24,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className='app'>
       <h1>Example.com</h1>
       <h2>Result: {fetchresult} </h2>
     </div>
